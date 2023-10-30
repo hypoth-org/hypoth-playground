@@ -1,0 +1,25 @@
+.button {
+    cursor: pointer;
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .button.disabled {
+    cursor: not-allowed;
+    background: #ccc;
+  }
+
+  .button[data-size="small"] {
+    height: 2rem;
+  }
+
+  .button.medium {
+    height: 2.5rem;
+  }
+
+  .button.large {
+    height: 3rem;
+  }
